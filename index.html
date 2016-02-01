@@ -8,6 +8,16 @@
     <script type="text/javascript" src="jquery.fullPage.js"></script>
     <!--Get font-awesome icons-->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">    
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        sectionsColor: ['#27203f',],
+        anchors: ['aboutMe',],
+        menu: '#menu',
+        scrollingSpeed: 1000
+      });
+    });
+  </script>    
   </head>
   <body>
   <div id="fullpage">
