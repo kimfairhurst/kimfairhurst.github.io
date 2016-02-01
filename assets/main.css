@@ -80,6 +80,10 @@ a {
   margin-right: 12px;
 }
 
+.fa-github:hover{ color : white}
+.fa-linkedin-square:hover{ color : white;}
+.fa-facebook-square:hover{ color : white}
+.fa-fa-envelope:hover{ color : white}
 
 @media (max-width: 800px) and (min-width: 481px) {
   .intro {
