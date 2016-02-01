@@ -71,6 +71,31 @@ a {
   font-weight: 300;
 }
 
+.projects-container {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.features {
+  max-width: 75%;
+}
+
+.specific-features {
+  max-width: 75%;
+}
+
+.specific-features p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
 .contact {
   font-size: 20px;
   font-weight: 400;
