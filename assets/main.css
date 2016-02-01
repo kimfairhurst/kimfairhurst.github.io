@@ -44,10 +44,10 @@ a {
 }
 
 .img-circle {
-	float: left;
-    border-radius: 50%;
-	height: 200px;
-	width: 200px; 
+  float: left;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px; 
 }
 
 .intro-container {
