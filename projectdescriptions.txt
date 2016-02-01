@@ -1,0 +1,33 @@
+									<h3>Past Projects</h3>
+									<p>These are a few of the projects I've done. There are more available on my <a href="https://github.com/kimfairhurst" target="_blank">Github page.</a></p>
+									<div class="features">
+										<article>
+											<a href="" class="image"><img src="images/elocalculatorcode.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Elo Calcuator</h4>
+												<p>Based on method of ranking players originally developed for Chess. Takes an input file of an adjacency matrix showing players' wins/losses, randomizes the order of the games 1000 times, uses those orderings to calculate the ELO of each player, and outputs a file showing the results.</br><a href="https://github.com/kimfairhurst/ELOCalculator" target="_blank">Github Repo</a></p>
+											</div>
+										</article>
+										<article>										
+											<a href="" class="image"><img src="images/freshglassgroup.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Fresh Glass</h4>
+												<p>
+												An iOS Application implemented with Kinoma JS and written in JavaScript. It works as a remote control for a simulated connected window device capable of changing its tint and display image. </br><a href="https://www.hackster.io/team-fresh-glass/fresh-glass-1b5235?ref=user&ref_id=5398&offset=0" target="_blank">Hackster Project Page</a></br></p>
+											</div>
+										</article>
+
+										<article>
+											<a href="" class="image"><img src="images/firewallcode.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Stateless Firewall</h4>
+												<p>Designed to run at end-hosts and filter traffic on a packet-by-packet basis based on basic firewall rules such as IP, Port, Protocol and DNS query. Developed and tested with the help of a Linux-based virtual machine.</br><a href="https://github.com/kimfairhurst/distancevectorrouting" target="_blank">Github Repo</a></p>
+											</div>
+										</article>										
+										<article>
+											<a href="" class="image"><img src="images/sunalarm.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Sun-activated Alarm Clock</h4>
+												<p>A mechanical device built with repurposed parts from a broken inkjet printer and controlled with an Arduino microcontroller. When ambient light hits a photocell indicator, a sign waves up and down, a fan moves from side-to-side on the old printer carriage, and a small bell goes off.</br><a href="https://www.youtube.com/watch?v=8dsyLUtyL0Q" target="_blank">YouTube video</a></p>
+											</div>
+										</article>
