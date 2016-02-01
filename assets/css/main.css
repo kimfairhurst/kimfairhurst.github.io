@@ -46,8 +46,8 @@ a {
 .img-circle {
 	float: left;
     border-radius: 50%;
-	height: 250px;
-	width: 250px; 
+	height: 200px;
+	width: 200px; 
 }
 
 .intro-container {
@@ -60,7 +60,7 @@ a {
 }
 
 .intro {
-  max-width: 50%;
+  max-width: 75%;
 }
 
 .intro p {
