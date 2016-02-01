@@ -44,6 +44,7 @@ a {
 }
 
 .img-circle {
+	float: left;
     border-radius: 50%;
 	height: 250px;
 	width: 250px;   
@@ -54,7 +55,6 @@ a {
   display: flex;
   flex-grow: 1;
   justify-content: center;
-  vertical-align: middle;
   padding: 20px;
 
 }
