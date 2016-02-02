@@ -10,7 +10,7 @@
 
 
     <script type="text/javascript">
-      $(document).on('click', '#navigateDown', function(){
+      $(document).on('click', '#bouncingarrow', function(){
       $.fn.fullpage.moveSectionDown();});
     </script>
 
@@ -19,6 +19,8 @@
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 sectionsColor: ['#27203f', '#15293d', '#221932', '#1a1632', '#14282e'],
+                slidesNavigation: true,
+                slidesNavPosition: 'top',
             });
         });
     </script>    
@@ -37,12 +39,12 @@
                 <li><a href="https://www.facebook.com/kim.fairhurst.16"><i class="fa fa-facebook-square"></i></a></li>          
                 <li><a href="mailto:kimberlyfairhurst@gmail.com"><i class="fa fa-envelope"></i></a></li>
               </ul>
-              <button id="navigateDown"><div class="arrow bounce"></div></button>
-
             </div>
           </div>
+          <button id="bouncingarrow"></button>
         </div>
         <div class="section">
+            <button id="bouncingarrow"></button>
             <div class="slide">          
               <div class="projects-container">
                 <div class="projects">
@@ -101,11 +103,13 @@
                   <ul class="external-link">
                     <a class="external-link-url" a href="https://www.youtube.com/watch?v=8dsyLUtyL0Q" target="_blank">Youtube video</i></a>
                   </ul>
+
                 </div>
               </div>
-            </div>
+            </div>    
         </div>
         <div class="section">
+            <button id="bouncingarrow"></button>
             <div class="slide">          
               <div class="projects-container">
                 <div class="projects">
@@ -129,11 +133,15 @@
             </div>
         </div>
         <div class="section">
+          <button id="bouncingarrow"></button>
           <div class="skills-container">
             <div class = "skills">          
               <h1>Skills</h1>
+
             </div>
           </div>
+          <button id="bouncingarrow"></button>            
+
         </div>
 
         <div class="section">
