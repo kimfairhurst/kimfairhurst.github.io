@@ -39,11 +39,11 @@ html.fp-enabled,
 #navbar ul li .navbar-home:hover { color:  #9588c2; }
 #navbar ul li .active-home { color:  #9588c2; }
 
-#navbar ul li .navbar-currentprojects:hover { color:  #709fce; }
-#navbar ul li .active-currentprojects { color:  #709fce; }
+#navbar ul li .navbar-projects:hover { color:  #709fce; }
+#navbar ul li .active-projects { color:  #709fce; }
 
-#navbar ul li .navbar-pastprojects:hover { color:  #9d87c3; }
-#navbar ul li .active-pastprojects { color:  #9d87c3; }
+#navbar ul li .navbar-workexperiences:hover { color:  #9d87c3; }
+#navbar ul li .active-workexperiences { color:  #9d87c3; }
 
 #navbar ul li .navbar-skills:hover { color:  #ce709f; }
 #navbar ul li .active-skills { color:  #ce709f; }
@@ -168,53 +168,53 @@ a {
   text-decoration: none;
 }
 
-.pastprojects-container {
+.workexperience-container {
   align-items: center;
   display: flex;
   justify-content: center;
   padding: 12px;
 }
 
-.pastprojects {
+.workexperience {
   max-width: 80%;
   justify-content: center;
   align-items: center;
 }
 
-.pastprojects p {
+.workexperience p {
   font-size: 20px;
   font-weight: 280;
   justify-content: center;
   align-items: center;  
 }
 
-.pastprojects a {
-  color: #709fce;
+.workexperience a {
+  color: #9d87c3; 
   text-decoration: none;
 }
 
-.currentprojects-container {
+.projects-container {
   align-items: center;
   display: flex;
   justify-content: center;
   padding: 12px;
 }
 
-.currentprojects {
+.projects {
   max-width: 80%;
   justify-content: center;
   align-items: center;
 }
 
-.currentprojects p {
+.projects p {
   font-size: 20px;
   font-weight: 280;
   justify-content: center;
   align-items: center;  
 }
 
-.currentprojects a {
-  color: #9d87c3;
+.projects a {
+  color: #709fce;
   text-decoration: none;
 }
 
@@ -277,7 +277,12 @@ a.contact-link-url:hover {
 .skills { 
   max-width: 80%;
   justify-content: center;
-  align-items: center;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
 }
 
 .skills p {
@@ -290,7 +295,26 @@ a.contact-link-url:hover {
 .skills a {
   color: #ce709f;
   text-decoration: none
+}
 
+.skillslist {
+  font-size: 20px;
+  font-weight: 400;
+  list-style: none;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+
+.skillslist > li {
+  margin-bottom: 12px;
+  margin-right: 12px;
+
+}
+
+.skillslist a {
+  color: #ce709f;
+  margin-right: 12px;
+  text-decoration: none;
 }
 
 .fa-github:hover{ color : white}
