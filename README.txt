@@ -4,9 +4,12 @@ A work in progress as I learn more HTML/CSS and web design. This is my personal 
 Currently using the fullPage j-Query based plugin developed by Alvaro Trigo, https://github.com/alvarotrigo/fullPage.js/.
 
 TODO:
-- mobile friendly?
-- single page scroll bar
-
+- DONE add images to projects/work experiences
+- DONE add icons to skills
+- DONE mobile friendly?
+- DONE single page scroll bar
+- contact form?
+- add more projects??
 
 
 
